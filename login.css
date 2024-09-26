@@ -140,7 +140,6 @@ button:hover {
     text-decoration: underline;
 }
 .pierwszy {
-    background: rgba(250,250,250, .5);
     border: 2px solid rgb(255, 255, 255);
     border-radius: 10px;
     transition: all 0.4s ease;
@@ -155,4 +154,5 @@ button:hover {
 
 .pierwszy:hover {
     background-color: rgb(48, 46, 46);
+    transition: all 0.4s ease;
 }
