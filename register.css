@@ -53,7 +53,7 @@ h1 {
 .inputbox input:not(:placeholder-shown) ~ label {
     top: -15px;
     font-size: 0.75rem;
-    color: #ffffffa0; /* Bledszy kolor dla mniejszych etykiet */
+    color: #ffffffa0; 
 }
 
 .inputbox input:focus {
