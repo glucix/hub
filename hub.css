@@ -109,6 +109,12 @@ a.clickable-div {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: 300px;
     text-wrap: wrap;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
 
 .card img {
@@ -129,7 +135,8 @@ a.clickable-div {
 }
 
 .card img:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
 
 .dol {
@@ -249,6 +256,7 @@ a.clickable-div {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
 }
 .Portfoliojeden, .Portfoliodwa, .Portfolitrzy, .Portfolicztery{
     background-color: rgba(0, 0, 0, 1);
@@ -266,6 +274,7 @@ a.clickable-div {
     padding: 20px;
     font-size: 20px;
     border: 2px solid white;  
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
 }
     .Portfolio h1{
         padding: 20px;
@@ -287,7 +296,6 @@ a.clickable-div {
 
 .Portfoliojeden:hover, .Portfoliodwa:hover, .Portfolitrzy:hover, .Portfolicztery:hover{
     box-shadow: 8px 8px 24px 0px rgb(134, 134, 134);
-    transition: box-shadow 0.2s linear;
-
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
 }
 
