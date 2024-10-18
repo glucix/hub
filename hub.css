@@ -191,6 +191,7 @@ a.clickable-div {
     position: absolute; 
     right: 30px; 
     top: 30px;   
+    
 }
 
 #scrollToMid{
@@ -223,6 +224,7 @@ a.clickable-div {
 
 #scrollToTop:hover,#scrollToMid:hover,#toggleButton:hover  {
     transform: scale(1.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
 }
 
 .foder{
